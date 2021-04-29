@@ -44,7 +44,6 @@ function draw() {
     tower.y=300;
   }
 
-    spookySnd.loop();
     
   if (keyDown("right_arrow")){
     ghost.x=ghost.x+3;
@@ -72,7 +71,6 @@ function draw() {
       
       ghost.destroy();
       gameState="end";
-      spookySnd.stop();
       
       
     }
