@@ -43,7 +43,9 @@ function draw() {
     if (tower.y>400) {
     tower.y=300;
   }
-  
+
+    spookySnd.loop();
+    
   if (keyDown("right_arrow")){
     ghost.x=ghost.x+3;
   }
